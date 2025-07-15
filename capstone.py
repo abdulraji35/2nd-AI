@@ -126,3 +126,8 @@ Respond only to the selected tasks below, and format your output clearly using t
 
             except Exception as e:
                 st.error(f"An error occurred: {e}")
+
+
+
+st.markdown("---")
+st.subheader("Built by RAJI")
