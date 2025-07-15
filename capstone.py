@@ -1,13 +1,11 @@
 import os
 import streamlit as st
-from dotenv import load_dotenv
+
 from google import generativeai as genai
 import pdfplumber
 import docx
 
 
-
-load_dotenv()
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 
 genai.configure()
